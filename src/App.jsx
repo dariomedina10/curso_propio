@@ -27,7 +27,7 @@ function App() {
       <h1>Bienvenido a mi aplicación</h1>
       <MyButton />
     </div>
-    <p>Hecho por Ing. Darío Medina</p>
+    <p>Hecho por Ing. Darío Fernando Medina</p>
     </>
   )
 }
