@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import  MyButton from './componentes/Boton'
+import Listas from './componentes/Listas'
 import './App.css'
 
 function App() {
@@ -25,7 +26,9 @@ function App() {
       </div> */}
         <div>
       <h1>Bienvenido a mi aplicación</h1>
+       <Listas/>
       <MyButton />
+     
     </div>
     <p>Hecho por Ing. Darío Fernando Medina</p>
     </>
