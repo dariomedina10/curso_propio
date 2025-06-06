@@ -1,16 +1,21 @@
 import React from 'react';
+import { useState } from 'react';
 import '../hojaestilos/boton.css';
 
 function MyButton() {
 
+const [count, setCount] = useState(0);
+
   function handleClick() {
-    alert('¡Me hiciste clic!');
+     setCount(count + 1);
+   // alert('¡Me hiciste clic!');
   }
 
 
   return (
     //<button>Soy un botón</button>
-    <button class="boton" onClick={handleClick}>Hazme clic</button>
+    <button class="boton" onClick={handleClick}>Hiciste clic {count} veces</button>
+      
         
       
     
