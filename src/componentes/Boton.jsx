@@ -8,7 +8,7 @@ const [count, setCount] = useState(0);
 
   function handleClick() {
      setCount(count + 1);
-   // alert('¡Me hiciste clic!');
+   // alert('¡Me hiciste clic!'); probando
   }
 
 
