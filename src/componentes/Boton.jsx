@@ -14,7 +14,15 @@ const [count, setCount] = useState(0);
 
   return (
     //<button>Soy un botón</button>
-    <button class="boton" onClick={handleClick}>Hiciste clic {count} veces</button>
+        <div>
+      <h1>Contadores que se actualizan juntos</h1>
+     <button class="boton" count={count} onClick={handleClick}>Hiciste clic {count} veces</button> 
+     <br></br>
+     <br></br>
+     <button class="boton" count={count} onClick={handleClick}>Hiciste clic {count} veces</button> 
+
+    </div>   
+    
       
         
       
